@@ -1,0 +1,30 @@
+{
+  "name": "@lastsecond/vue3-circle-progressbar",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue3-circle-progressbar.umd.js",
+  "module": "./dist/vue3-circle-progressbar.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-circle-progressbar.es.js",
+      "require": "./dist/vue3-circle-progressbar.es.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.2.0",
+    "vue": "^3.2"
+  }
+}

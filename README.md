@@ -72,7 +72,7 @@ import the component and its style to the vue component you want to use
 | background-color  | `String`  | `'white'`     | circle background color                       |
 | stroke-width      | `Number`  | `20`          | progressbar width                             |
 | container-width   | `Number`  | `200`         | svg viewbox size                              |
-| show-default-text | `Boolean` | `true`        | show `{value}%` in center of default template |
+| show-default-text | `Boolean` | `false`       | show `{value}%` in center of default template |
 
 ## Slots
 
@@ -91,7 +91,6 @@ import the component and its style to the vue component you want to use
     background-color="#000"
     :stroke-width="10"
     :container-width="100"
-    :show-default-text="false"
   >
     <div class="custom-class">this text is inside of svg</div>
   </CircleProgressbar>

@@ -61,7 +61,7 @@ const props = defineProps({
   },
   showDefaultText: {
     type: Boolean,
-    default: () => true,
+    default: () => false,
   },
 });
 

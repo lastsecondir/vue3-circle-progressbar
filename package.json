@@ -1,5 +1,6 @@
 {
   "name": "@lastsecond/vue3-circle-progressbar",
+  "description": "customizable circle progressbar with slot for vue3",
   "version": "1.0.0",
   "type": "module",
   "files": [

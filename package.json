@@ -1,6 +1,7 @@
 {
   "name": "@lastsecond/vue3-circle-progressbar",
-  "version": "1.0.0",
+  "description": "customizable circle progressbar with slot for vue3",
+  "version": "1.0.1",
   "type": "module",
   "files": [
     "dist"
@@ -14,6 +15,9 @@
     },
     "./style.css": "./dist/style.css"
   },
+  "homepage": "https://github.com/lastsecondir/vue3-circle-progressbar#readme",
+  "license": "ISC",
+  "author": "Alireza Shalforoosh <alirezashalforoosh75@gmail.com> (https://github.com/Alireza1996Sh)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
